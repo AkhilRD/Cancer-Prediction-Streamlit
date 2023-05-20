@@ -148,7 +148,7 @@ def add_prediction(input_data):
     st.write("Benign Probability: ", round(model.predict_proba(input_scaled)[0][0],3))
     st.write("Malicious Probability: ", round(model.predict_proba(input_scaled)[0][1],3))
 
-    st.write('The numbers are purely to boost the quality of diagnosis and is not the meant as a substitute to professional diagnosis')
+    st.write('The analysis is to purely boost the quality of diagnosis and is not meant as a substitute to professional diagnosis')
 
 
 def main():
