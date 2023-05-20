@@ -43,7 +43,7 @@ It imports the necessary dependencies, including Streamlit for creating the web 
 - The application layout is divided into two columns. In the first column, the radar chart is displayed based on the user input data, using the `get_radar_chart` function. In the second column, the diagnosis prediction and associated probabilities are shown using the `add_prediction` function.
 - Finally, the `main` function is called to run the Streamlit application.
 
-Note: This block of CSS code in `assets/style.css` defines some custom styles that are used in the Streamlit application for breast cancer prediction. Here is a step-by-step breakdown of what each part of the CSS code does
+Note: This block of CSS code in `assets/style.css` defines some custom styles that are used in the Streamlit application for breast cancer prediction.
 
 ### [App Link](https://akhilrd-cancer-prediction-streamlit-appmain-qi312g.streamlit.app/)
 
